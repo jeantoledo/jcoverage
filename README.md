@@ -1,3 +1,5 @@
+[![CircleCI](https://circleci.com/gh/jeantoledo/jcoverage.svg?style=svg)](https://circleci.com/gh/jeantoledo/jcoverage)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
