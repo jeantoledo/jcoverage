@@ -7,7 +7,9 @@ jobs:
       name: node/default
     steps:
       - checkout
-      - run: npm install
+      - run:
+        name: Setup Code Climate test-reporter
+        command: npm install
       - run:
         name: Setup Code Climate test-reporter
         command: |
