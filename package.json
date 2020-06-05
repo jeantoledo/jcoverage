@@ -13,7 +13,8 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "test": "yarn jest",
+    "test:coverage": "yarn jest --collect-coverage",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -30,5 +31,12 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.10.2",
+    "@babel/preset-react": "^7.10.1",
+    "babel-jest": "^26.0.1",
+    "jest": "^26.0.1",
+    "react-test-renderer": "^16.13.1"
   }
 }
