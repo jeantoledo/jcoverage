@@ -17,7 +17,7 @@ jobs:
             chmod +x ./cc-test-reporter
       - run:
           name: Running Tests
-          command: ./cc-test-reporter before-build; yarn jest --collectCoverage; ./cc-test-reporter after-build --exit-code $?
+          command: ./cc-test-reporter before-build; npm run test:coverage; ./cc-test-reporter after-build --exit-code $?
 workflows:
   version: 2
   build-and-deploy:

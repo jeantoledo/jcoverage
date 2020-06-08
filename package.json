@@ -14,7 +14,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "yarn jest",
-    "test:coverage": "yarn jest --collect-coverage",
+    "test:coverage": "jest --collect-coverage",
     "eject": "react-scripts eject"
   },
   "jest": {
