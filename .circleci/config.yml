@@ -19,7 +19,7 @@ jobs:
           name: Running Tests
           command: |
             ./cc-test-reporter before-build
-            yarn jest --collect-coverage
+            yarn jest --collect-coverage;
             ./cc-test-reporter after-build -t lcov --exit-code $?
 workflows:
   version: 2
