@@ -19,8 +19,8 @@ jobs:
           name: Running Tests
           command: |
             ./cc-test-reporter before-build
-            success=$(yarn jest --collectCoverage)
-            ./cc-test-reporter after-build --exit-code success
+            yarn test:coverage
+            ./cc-test-reporter after-build --exit-code $?
 workflows:
   version: 2
   build-and-deploy:
