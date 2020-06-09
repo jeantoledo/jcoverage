@@ -49,8 +49,3 @@ test("isFalse", () => {
   // expect(true).toEqual(true);
   expect(isFalse(true)).toEqual(false);
 });
-
-test("haveLength", () => {
-  // expect(true).toEqual(true);
-  expect(haveLength("true")).toEqual(4);
-});
