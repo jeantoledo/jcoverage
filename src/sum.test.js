@@ -1,14 +1,4 @@
-import {
-  sum,
-  sub,
-  mult,
-  div,
-  isOdd,
-  total,
-  isTrue,
-  isFalse,
-  haveLength,
-} from "./sum";
+import { sum, sub, mult, div, isOdd, total, isTrue, isFalse } from "./sum";
 
 test("sum", () => {
   // expect(true).toEqual(true);
