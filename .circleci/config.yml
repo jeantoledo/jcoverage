@@ -19,8 +19,11 @@ jobs:
           name: Running Tests
           command: |
             ./cc-test-reporter before-build
-            npm run test:coverage
+            yarn test:coverage --coverageThreshold={}
             ./cc-test-reporter after-build --exit-code $?
+      - store_artifacts:
+          path: coverage
+
 workflows:
   version: 2
   build-and-deploy:
