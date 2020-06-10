@@ -1,8 +1,6 @@
 version: 2
 jobs:
   main:
-    environment:
-      CC_TEST_REPORTER_ID: 3b6471b681124f271c9cc903cb4ef64970071881bb66a95f9d1783d887fee1e8
     docker:
       - image: circleci/node:10-browsers
     steps:
